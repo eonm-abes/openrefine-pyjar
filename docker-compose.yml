@@ -1,0 +1,8 @@
+openrefine:
+  build: .
+  ports:
+    - "3333:3333"
+  volumes:
+    - ./data:/data
+    - ./app:/app
+  restart: always
