@@ -15,5 +15,3 @@ ADD https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.8/commons-t
 ADD https://repo1.maven.org/maven2/info/knigoed/isbn/isbn-check/2.1.3/isbn-check-2.1.3.jar ./webapp/WEB-INF/lib/
 
 VOLUME /app/webapp/WEB-INF/lib/
-
-WORKDIR /data
