@@ -2,7 +2,7 @@ FROM vimagick/openrefine:latest
 
 WORKDIR /app
 
-ADD https://repo1.maven.org/maven2/org/python/jython-installer/2.7.2/jython-installer-2.7.2.jar jython-installer-2.7.2.jar jython-installer-2.7.2.jar
+ADD https://repo1.maven.org/maven2/org/python/jython-installer/2.7.2/jython-installer-2.7.2.jar jython-installer-2.7.2.jar
 ADD requirements.txt requirements.txt
 
 RUN mkdir jython && java -jar jython-installer-2.7.2.jar -s -d jython
