@@ -52,7 +52,7 @@ docker-compose up --build # création et lancement du contenur docker
 
 ### Ajout de nouvelles libraries
 
-Les libraries python doivent être ajoutées au fichier [requierments.txt](./requierments.txt). Les libraries java doivent être ajoutées dans le fichier [Dockerfile](./Dockerfile#L14) en utilisant la dirrective `ADD`.
+Les libraries python doivent être ajoutées au fichier [requirements.txt](./requirements.txt). Les libraries java doivent être ajoutées dans le fichier [Dockerfile](./Dockerfile#L14) en utilisant la dirrective `ADD`.
 
 ```Dockerfile
 ADD https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.8/commons-text-1.8.jar ./webapp/WEB-INF/lib/
