@@ -11,8 +11,9 @@ Openrefine-pyjar permet d'installer et d'utiliser des librairies java et python 
 ## Installation
 
 ```sh
-docker-compose build
-docker-compose up
+git clone https://github.com/eonm-abes/openrefine-pyjar
+cd openrefine-pyjar
+docker-compose build --up
 ```
 ## Libraries installées par défaut
 
