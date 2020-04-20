@@ -25,7 +25,25 @@ docker-compose up --build # création et lancement du contenur docker
 
 **Java**
 
-* [commons-text](https://commons.apache.org/proper/commons-text/javadocs/api-release/index.html)
+* [commons-text](https://commons.apache.org/proper/commons-text/javadocs/api-release/index.html) (string similarity/diff algorithm) :
+  * CosineDistance
+  * CosineSimilarity
+  * EditDistanceFrom
+  * FuzzyScore
+  * HammingDistance
+  * IntersectionResult
+  * IntersectionSimilarity
+  * JaccardDistance
+  * JaccardSimilarity
+  * JaroWinklerDistance
+  * JaroWinklerSimilarity
+  * LevenshteinDetailedDistance
+  * LevenshteinDistance
+  * LevenshteinResults
+  * LongestCommonSubsequence
+  * LongestCommonSubsequenceDistance
+  * SimilarityScoreFrom
+
 * [isbn-check](https://mvnrepository.com/artifact/info.knigoed.isbn/isbn-check)
 
 **Python**
